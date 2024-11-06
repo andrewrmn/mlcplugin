@@ -1,0 +1,16 @@
+.gh-block{
+  background-image:url('../../images/github-icon.gif');
+  background-position: right top;
+  background-repeat:no-repeat;
+  background-size: 32px;
+  border:1px dotted #FF6600;
+}
+.google-links{
+  display: flex; 
+}
+.google-links li{
+  margin-right: 10px;
+}
+.google-links li a:hover{
+  
+}
