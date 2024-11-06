@@ -37,16 +37,7 @@ if (!defined('WPINC')) {
 define('MLCOMMONS_VERSION', '1.1.0');
 define('MLCOMMONS_PATH', plugin_dir_path(__FILE__));
 
-define('MLCOMMONS_DB_MAILCHIMP_HASHES', 'mlc_mc_table_version');
-define('MLCOMMONS_DB_MAILCHIMP_HASHES_VERSION', '0.0.1');
-define('MLCOMMONS_HASH_MC_UPDATE_QUERYVAR', 'mlmch');
-define('MLCOMMONS_OPTION_MC_SYNC', 'mlmc_categories_update');
 
-//define('MLCOMMONS_GAPI_CRON_PATH', 'mlcommons-gapi-cron');
-//define('MLCOMMONS_GAPI_CRON_QUERY_VAR', 'mlcommons_gapi_cron');
-
-//define('MLCOMMONS_OAUTH_PATH', 'mlcommons-oauth');
-//define('MLCOMMONS_OAUTH_QUERY_VAR', 'mlcommons_oauth');
 define('MLCOMMONS_OAUTH_TOKEN', 'mloauth_access_token');
 //define('MLCOMMONS_OAUTH_TOKEN_DATA', 'mloauth_access_token_data');
 //define('MLCOMMONS_OAUTH_TOKEN_REFRESH', 'mloauth_token_refresh');

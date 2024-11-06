@@ -30,8 +30,6 @@ class Mlcommons_Activator {
    * @since    1.0.0
    */
   public static function activate() {
-    $plugin_mc = new Mlcommons_Mailchimp();
-    $plugin_mc->check_table_mc_hashes();
     $plugin_gcal = new Mlcommons_GCal();
     $plugin_gcal->check_table_gcal_events();
   }

@@ -30,7 +30,7 @@ class Mlcommons_Deactivator {
    * @since    1.0.0
    */
   public static function deactivate() {
-    delete_transient(MLCOMMONS_DB_MAILCHIMP_HASHES);
+
   }
 
 }
